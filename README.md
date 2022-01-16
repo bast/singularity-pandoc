@@ -2,7 +2,7 @@
 
 How to fetch and use the image:
 ```
-$ singularity pull https://github.com/bast/singularity-pandoc/releases/download/0.1.0/pandoc.sif
+$ singularity pull https://github.com/bast/singularity-pandoc/releases/download/0.2.0/pandoc.sif
 $ ./pandoc.sif --from=markdown --to=rst --output=README.rst README.md
 ```
 

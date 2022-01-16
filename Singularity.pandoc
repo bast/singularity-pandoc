@@ -5,6 +5,7 @@ From: ubuntu:20.04
     apt-get install -y software-properties-common
     add-apt-repository universe
     apt-get update -y
+    apt-get install -y texlive texlive-fonts-extra
     apt-get install -y pandoc
 
 %environment
